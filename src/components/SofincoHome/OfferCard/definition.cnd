@@ -1,0 +1,6 @@
+[sofincotplset:offerCard] > jnt:content, mix:title, sofincotplsetmix:component
+ - description (string) i18n
+ - rate (string) i18n
+ - amount (string) i18n
+ - ctaLabel (string) i18n
+ - badgeLabel (string) i18n

@@ -1,0 +1,6 @@
+[sofincotplset:contactSection] > jnt:content, sofincotplsetmix:component
+ - kicker (string) i18n
+ - title (string) i18n
+ - lead (string) i18n
+ - primaryCtaLabel (string) i18n
+ - secondaryCtaLabel (string) i18n

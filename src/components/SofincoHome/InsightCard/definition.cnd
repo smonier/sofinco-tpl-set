@@ -1,0 +1,3 @@
+[sofincotplset:insightCard] > jnt:content, mix:title, sofincotplsetmix:component
+ - description (string) i18n
+ - ctaLabel (string) i18n

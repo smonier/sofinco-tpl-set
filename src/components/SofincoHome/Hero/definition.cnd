@@ -1,0 +1,16 @@
+[sofincotplset:heroSection] > jnt:content, sofincotplsetmix:component
+ - kicker (string) i18n
+ - title (string) i18n
+ - description (string) i18n
+ - primaryCtaLabel (string) i18n
+ - secondaryCtaLabel (string) i18n
+ - trustPoints (string) i18n multiple
+ - panelLabel (string) i18n
+ - panelValue (string) i18n
+ - panelHint (string) i18n
+ - panelAmountLabel (string) i18n
+ - panelAmountValue (string) i18n
+ - panelDurationLabel (string) i18n
+ - panelDurationValue (string) i18n
+ - panelProcessLabel (string) i18n
+ - panelProcessValue (string) i18n
