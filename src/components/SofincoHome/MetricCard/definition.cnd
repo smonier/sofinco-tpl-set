@@ -1,0 +1,3 @@
+[sofincotplset:metricCard] > jnt:content, sofincotplsetmix:component
+ - value (string) i18n mandatory
+ - label (string) i18n

@@ -1,0 +1,5 @@
+[sofincotplset:sofincoHeader] > jnt:content, sofincotplsetmix:component orderable
+ - brandName (string) i18n
+ - primaryCtaLabel (string) i18n
+ - secondaryCtaLabel (string) i18n
+ + * (sofincotplset:navLink)

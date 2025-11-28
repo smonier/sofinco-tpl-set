@@ -1,0 +1,2 @@
+[sofincotplset:highlightCard] > jnt:content, mix:title, sofincotplsetmix:component
+ - description (string) i18n

@@ -1,0 +1,5 @@
+[sofincotplset:insightSection] > jnt:content, sofincotplsetmix:component orderable
+ - kicker (string) i18n
+ - title (string) i18n
+ - lead (string) i18n
+ + * (sofincotplset:insightCard)
