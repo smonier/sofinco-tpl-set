@@ -1,0 +1,3 @@
+[sofincotplset:helloWorld] > jnt:content, sofincotplsetmix:component orderable
+ - name (string) i18n mandatory
+ + * (sofincotplset:helloCard)
