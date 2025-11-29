@@ -7,5 +7,24 @@
   "hBBhbeE0-a4KS9HVFPsOz": "Hydrated client-side",
   "AI95bg1EJsr48SR-4f_pl": "Rendered server-side",
   "OfBsezopuIko8aJ6X3kpw": "Despite being written with React, this page is fully rendered server-side. No JavaScript is sent to the client by default! This does not mean you cannot use client-side code:",
-  "nr31fYHB-RqO06BCl4rYO": "This pattern is named <a>Islands Architecture.</a>"
+  "nr31fYHB-RqO06BCl4rYO": "This pattern is named <a>Islands Architecture.</a>",
+  "fmdb_inputText": "Input Text",
+  "fmdb_inputText.ui.tooltip": "A single line text input field.",
+  "fmdb_inputText.placeholder": "Placeholder",
+  "fmdb_inputText.placeholder.ui.tooltip": "Text displayed inside the input",
+  "sofincoHome.layout.titleFallback": "Sofinco",
+  "sofincoHome.header.brandDefault": "Sofinco",
+  "sofincoHome.header.navLabel": "Main navigation",
+  "sofincoHome.header.emptyState": "Add navigation links to this area.",
+  "sofincoHome.offers.emptyState": "Add offer cards to populate this grid.",
+  "sofincoHome.offerCard.rateLabel": "Rate",
+  "sofincoHome.offerCard.amountLabel": "Amount",
+  "sofincoHome.highlights.emptyState": "Add highlight items to describe your commitments.",
+  "sofincoHome.testimonials.emptyState": "Add numerical metrics in this section.",
+  "sofincoHome.insights.emptyState": "Add insight cards to complete this section.",
+  "sofincoHome.hero.defaultTrustPoints": [
+    "Immediate preliminary response",
+    "Secure electronic signature",
+    "No application fees"
+  ]
 }

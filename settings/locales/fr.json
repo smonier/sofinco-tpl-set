@@ -7,5 +7,24 @@
   "AI95bg1EJsr48SR-4f_pl": "Rendu par le serveur",
   "OfBsezopuIko8aJ6X3kpw": "Bien que cette page soit codée avec React, elle est entièrement rendue par le serveur. Le JavaScript côté client n'est pas nécessaire par défaut ! Vous pouvez tout de même vous en servir quand vous le souhaitez :",
   "hBBhbeE0-a4KS9HVFPsOz": "Hydraté côté client",
-  "nr31fYHB-RqO06BCl4rYO": "Cela s'appelle la <a>Conception en archipel (en)</a>."
+  "nr31fYHB-RqO06BCl4rYO": "Cela s'appelle la <a>Conception en archipel (en)</a>.",
+  "fmdb_inputText": "Texte de saisie",
+  "fmdb_inputText.ui.tooltip": "Un champ de saisie sur une seule ligne.",
+  "fmdb_inputText.placeholder": "Texte indicatif",
+  "fmdb_inputText.placeholder.ui.tooltip": "Texte affiché à l'intérieur du champ",
+  "sofincoHome.layout.titleFallback": "Sofinco",
+  "sofincoHome.header.brandDefault": "Sofinco",
+  "sofincoHome.header.navLabel": "Navigation principale",
+  "sofincoHome.header.emptyState": "Ajoutez des liens de navigation dans cette zone.",
+  "sofincoHome.offers.emptyState": "Ajoutez des cartes d'offres pour alimenter cette grille.",
+  "sofincoHome.offerCard.rateLabel": "Taux",
+  "sofincoHome.offerCard.amountLabel": "Montant",
+  "sofincoHome.highlights.emptyState": "Ajoutez des éléments pour détailler vos engagements.",
+  "sofincoHome.testimonials.emptyState": "Ajoutez des indicateurs chiffrés dans cette section.",
+  "sofincoHome.insights.emptyState": "Ajoutez des cartes de conseils pour compléter cette section.",
+  "sofincoHome.hero.defaultTrustPoints": [
+    "Réponse de principe immédiate",
+    "Signature électronique sécurisée",
+    "Frais de dossier offerts"
+  ]
 }

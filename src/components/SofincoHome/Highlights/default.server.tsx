@@ -1,4 +1,5 @@
 import { RenderChildren, jahiaComponent } from "@jahia/javascript-modules-library";
+import { t } from "i18next";
 import classes from "../styles.module.css";
 
 interface HighlightSectionProps {
@@ -23,7 +24,7 @@ export default jahiaComponent(
       <div className={classes.highlightGrid}>
         <RenderChildren />
         {renderContext.isEditMode() && (
-          <p className={classes.emptyState}>Ajoutez des éléments pour détailler vos engagements.</p>
+          <p className={classes.emptyState}>{t("sofincoHome.highlights.emptyState")}</p>
         )}
       </div>
     </section>

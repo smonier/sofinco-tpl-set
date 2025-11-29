@@ -1,4 +1,5 @@
 import { jahiaComponent } from "@jahia/javascript-modules-library";
+import { t } from "i18next";
 import classes from "../styles.module.css";
 
 interface OfferCardProps {
@@ -25,11 +26,11 @@ export default jahiaComponent(
       {description && <p className={classes.cardText}>{description}</p>}
       <dl className={classes.cardMeta}>
         <div>
-          <dt>Taux</dt>
+          <dt>{t("sofincoHome.offerCard.rateLabel")}</dt>
           <dd>{rate}</dd>
         </div>
         <div>
-          <dt>Montant</dt>
+          <dt>{t("sofincoHome.offerCard.amountLabel")}</dt>
           <dd>{amount}</dd>
         </div>
       </dl>
