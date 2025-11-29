@@ -1,0 +1,5 @@
+[sofincotplset:megaNavSection] > jnt:content, sofincotplsetmix:component orderable
+ - title (string) i18n mandatory
+ - description (string) i18n
+ - accentLabel (string) i18n
+ + * (sofincotplset:navLink)

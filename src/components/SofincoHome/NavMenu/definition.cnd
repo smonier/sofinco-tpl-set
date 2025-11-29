@@ -1,0 +1,6 @@
+[sofincotplset:megaNav] > jnt:content, sofincotplsetmix:component orderable
+ - brandName (string) i18n
+ - brandTagline (string) i18n
+ - brandHref (string) i18n
+ - languages (string) i18n
+ + * (sofincotplset:megaNavSection)

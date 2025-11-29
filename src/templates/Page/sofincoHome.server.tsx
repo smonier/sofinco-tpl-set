@@ -15,8 +15,9 @@ jahiaComponent(
     displayName: "Sofinco inspired home",
   },
   ({ "jcr:title": title }: PageProps) => (
-    <Layout title={title ?? t("sofincoHome.layout.titleFallback")}>
+    <Layout title={title ?? t("sofincoHome.layout.titleFallback")}> 
       <div className={classes.page}>
+        <Area name="navigation" />
         <Area name="header" />
         <main>
           <Area name="hero" />
