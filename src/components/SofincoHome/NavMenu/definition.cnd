@@ -2,5 +2,6 @@
  - brandName (string) i18n
  - brandTagline (string) i18n
  - brandHref (string) i18n
+ - brandImage (weakreference, picker[type='image']) < 'jmix:image'
  - languages (string) i18n
  + * (sofincotplset:megaNavSection)

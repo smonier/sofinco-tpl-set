@@ -6,6 +6,7 @@ interface MegaNavProps {
   brandName?: string;
   brandTagline?: string;
   brandHref?: string;
+  brandImage?: { path?: string; url?: string } | string;
   languages?: string;
 }
 
@@ -21,9 +22,14 @@ export default jahiaComponent(
     nodeType: "sofincotplset:megaNav",
     displayName: "Mega navigation",
   },
-  ({ brandName, brandHref, brandTagline, languages }: MegaNavProps, { renderContext }) => {
+  (
+    { brandName, brandHref, brandTagline, brandImage, languages }: MegaNavProps,
+    { renderContext },
+  ) => {
     const languageOptions = parseLanguages(languages);
     const menuId = "sofincotplset-mega-menu";
+    const brandImageUrl =
+      (typeof brandImage === "string" && brandImage) || brandImage?.url || brandImage?.path;
 
     return (
       <nav className={classes.megaNav} aria-label={t("sofincoHome.navigation.label")}>
@@ -35,7 +41,15 @@ export default jahiaComponent(
               className={classes.navBrandLink}
               aria-label={brandName ?? t("sofincoHome.navigation.brandFallback")}
             >
-              <span className={classes.brandMark} aria-hidden="true" />
+              {brandImageUrl ? (
+                <img
+                  src={brandImageUrl}
+                  alt={brandName ?? t("sofincoHome.navigation.brandFallback")}
+                  className={classes.navBrandImage}
+                />
+              ) : (
+                <span className={classes.brandMark} aria-hidden="true" />
+              )}
               <span className={classes.navBrandText}>
                 <span className={classes.navBrandTitle}>{brandName ?? t("sofincoHome.navigation.brandFallback")}</span>
                 {brandTagline && <span className={classes.navBrandTagline}>{brandTagline}</span>}
