@@ -1,4 +1,5 @@
 import { Area, jahiaComponent } from "@jahia/javascript-modules-library";
+import { t } from "i18next";
 import { Layout } from "../Layout.jsx";
 import classes from "../../components/SofincoHome/styles.module.css";
 
@@ -14,7 +15,7 @@ jahiaComponent(
     displayName: "Sofinco inspired home",
   },
   ({ "jcr:title": title }: PageProps) => (
-    <Layout title={title ?? "Sofinco"}>
+    <Layout title={title ?? t("sofincoHome.layout.titleFallback")}>
       <div className={classes.page}>
         <Area name="header" />
         <main>

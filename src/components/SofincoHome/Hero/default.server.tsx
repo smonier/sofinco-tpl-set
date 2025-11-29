@@ -1,4 +1,5 @@
 import { jahiaComponent } from "@jahia/javascript-modules-library";
+import { t } from "i18next";
 import classes from "../styles.module.css";
 
 interface HeroProps {
@@ -19,11 +20,8 @@ interface HeroProps {
   panelProcessValue?: string;
 }
 
-const defaultTrustPoints = [
-  "Réponse de principe immédiate",
-  "Signature électronique sécurisée",
-  "Frais de dossier offerts",
-];
+const defaultTrustPoints = () =>
+  t("sofincoHome.hero.defaultTrustPoints", { returnObjects: true }) as string[];
 
 export default jahiaComponent(
   {
@@ -50,7 +48,7 @@ export default jahiaComponent(
       panelValue,
     }: HeroProps,
   ) => {
-    const trustList = trustPoints && trustPoints.length > 0 ? trustPoints : defaultTrustPoints;
+    const trustList = trustPoints && trustPoints.length > 0 ? trustPoints : defaultTrustPoints();
 
     return (
       <section className={classes.hero} id="simuler">

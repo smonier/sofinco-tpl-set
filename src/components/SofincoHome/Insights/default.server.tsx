@@ -1,4 +1,5 @@
 import { RenderChildren, jahiaComponent } from "@jahia/javascript-modules-library";
+import { t } from "i18next";
 import classes from "../styles.module.css";
 
 interface InsightSectionProps {
@@ -23,7 +24,7 @@ export default jahiaComponent(
       <div className={classes.cardGrid}>
         <RenderChildren />
         {renderContext.isEditMode() && (
-          <p className={classes.emptyState}>Ajoutez des cartes de conseils pour compléter cette section.</p>
+          <p className={classes.emptyState}>{t("sofincoHome.insights.emptyState")}</p>
         )}
       </div>
     </section>

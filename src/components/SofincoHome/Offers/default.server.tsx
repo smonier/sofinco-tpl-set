@@ -1,4 +1,5 @@
 import { RenderChildren, jahiaComponent } from "@jahia/javascript-modules-library";
+import { t } from "i18next";
 import classes from "../styles.module.css";
 
 interface OfferSectionProps {
@@ -23,7 +24,7 @@ export default jahiaComponent(
       <div className={classes.cardGrid}>
         <RenderChildren />
         {renderContext.isEditMode() && (
-          <p className={classes.emptyState}>Ajoutez des cartes d'offres pour alimenter cette grille.</p>
+          <p className={classes.emptyState}>{t("sofincoHome.offers.emptyState")}</p>
         )}
       </div>
     </section>

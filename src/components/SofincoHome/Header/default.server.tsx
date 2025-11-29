@@ -1,4 +1,5 @@
 import { RenderChildren, jahiaComponent } from "@jahia/javascript-modules-library";
+import { t } from "i18next";
 import classes from "../styles.module.css";
 
 interface HeaderProps {
@@ -15,14 +16,14 @@ export default jahiaComponent(
   },
   ({ brandName, primaryCtaLabel, secondaryCtaLabel }: HeaderProps, { renderContext }) => (
     <header className={classes.header}>
-      <div className={classes.brand} aria-label={brandName ?? "Sofinco"}>
+      <div className={classes.brand} aria-label={brandName ?? t("sofincoHome.header.brandDefault")}>
         <span className={classes.brandMark} />
-        <span className={classes.brandName}>{brandName ?? "Sofinco"}</span>
+        <span className={classes.brandName}>{brandName ?? t("sofincoHome.header.brandDefault")}</span>
       </div>
-      <nav className={classes.nav} aria-label="Navigation principale">
+      <nav className={classes.nav} aria-label={t("sofincoHome.header.navLabel")}>
         <RenderChildren />
         {renderContext.isEditMode() && (
-          <p className={classes.emptyState}>Ajoutez des liens de navigation dans cette zone.</p>
+          <p className={classes.emptyState}>{t("sofincoHome.header.emptyState")}</p>
         )}
       </nav>
       <div className={classes.actions}>
